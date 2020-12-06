@@ -1,0 +1,45 @@
+.rules {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  padding: 20px;
+  font-weight: 600;
+  color: #8a90ac;
+  transform: translate(-50%, -50%);
+}
+
+.rules__info {
+  margin: 10px;
+}
+
+.close {
+  float: right;
+}
+
+@media screen and (max-width: 375px) {
+  .rules {
+    width: 415px;
+    height: 687px;
+    padding-top: 170px;
+    z-index: 1;
+  }
+
+  .rules__image{
+    padding: 47px;
+  }
+
+  .rules__info {
+    position: absolute;
+    top: 0;
+    margin: 22% 37% 0;
+  }
+
+  h1 {
+    color: #3c4063;
+  }
+
+  .close {
+    transform: translate(-20px, 430px);
+  }
+}

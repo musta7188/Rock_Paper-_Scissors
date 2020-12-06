@@ -1,0 +1,41 @@
+/* .paperChoice{
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  margin-top: -50px;
+  margin-left: -100px;
+  background-color: white;
+  border-radius: 50%;;
+  border: 20px solid rgb(144, 80, 204);
+  padding: 40px;
+  box-shadow: 2px 5px rgb(66, 31, 99);
+  height: 90px;
+}
+
+.scissorsChoice{
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  margin-top: -50px;
+  margin-left: -100px;
+  background-color: white;
+  border-radius: 50%;;
+  border: 20px solid rgb(248, 237, 85);
+  padding: 40px;
+  box-shadow: 2px 5px rgb(145, 146, 59);
+  height: 90px;
+}
+
+.rockChoice{
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  margin-top: -50px;
+  margin-left: -100px;
+  background-color: white;
+  border-radius: 50%;;
+  border: 20px solid rgb(245, 32, 32);
+  padding: 40px;
+  box-shadow: 2px 5px rgb(184, 29, 29);
+  height: 90px;
+} */

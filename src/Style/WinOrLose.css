@@ -1,0 +1,58 @@
+.win_lose {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background-color: white;
+  background-color: transparent;
+  transform: translate(20%, 50%);
+}
+
+.win_lose > h1 {
+  color: white;
+  margin-left: 10px;
+  margin-top: 11%;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.win_lose > button {
+  color: blue;
+  border: 1px solid white;
+  padding: 20px;
+  padding-left: 75px;
+  padding-right: 75px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.win_lose > button:hover {
+  background-color: rgb(14, 13, 71);
+}
+
+@media screen and (max-width: 375px) {
+  .win_lose {
+    background-color: white;
+    background-color: transparent;
+    position: fixed;
+    transform: translate(6%, 50%);
+  }
+
+  .win_lose > h1 {
+    color: white;
+    margin-left: 1px;
+    margin-top: 15%;
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+
+  .win_lose > button {
+    color: blue;
+    border: 1px solid white;
+    padding: 12px;
+    padding-left: 58px;
+    padding-right: 58px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+}

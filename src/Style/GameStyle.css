@@ -1,0 +1,44 @@
+.user--name {
+  font-size: 25px;
+  color: wheat;
+  position: absolute;
+  top: 0;
+}
+
+.log-out {
+  position: absolute;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: pointer;
+  background-color: #108020;
+  margin: 8px 0;
+  color: white;
+}
+
+@media screen and (max-width: 375px) {
+  .game_dashboard {
+    transform: translate(10px, 10px);
+    height: 617px;
+    width: 336px;
+  }
+
+  .user--name {
+    font-size: 15px;
+    color: wheat;
+    position: absolute;
+    top: 0;
+    margin: -20px auto;
+  }
+
+  .log-out {
+    position: absolute;
+    border-radius: 4px;
+    cursor: pointer;
+    right: 0;
+    background-color: #108020;
+    color: white;
+    position: absolute;
+    top: 0;
+    margin: -20px auto;
+  }
+}

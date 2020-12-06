@@ -1,0 +1,23 @@
+.start--game{
+  position: relative;
+  margin: 50px auto 0;
+  width: 1050px;
+  height: 750px;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+@media screen and (max-width: 375px){
+  .start--game{
+    margin: 50px auto 0;
+    width: 330px;
+    height: 667;
+    margin: 0px auto 0px;
+    position: relative;
+    transform: translate(40px, 70px);
+  }
+
+}
