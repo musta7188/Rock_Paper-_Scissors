@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Form from './Form'
 import { connect } from "react-redux";
-// import GameDashboard from './GameDashboard'
+import GameDashboard from './GameDashboard'
 
 export function App({ user = false }) {
 
@@ -16,19 +16,17 @@ export function App({ user = false }) {
   }else{
     return(
       <div className="Game">
-     Game 
+     <GameDashboard/>
       </div>
     )
   }
   
 }
 
-// const mapStateToProps = (state) => {
-//   return {
-//     user: state.user,
-//   };
-// };
+const mapStateToProps = (state) => {
+  return {
+    user: state.user,
+  };
+};
 
-// export default connect(mapStateToProps)(App);
-
-export default App
+export default connect(mapStateToProps)(App);
