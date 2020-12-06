@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 // import ScoreTable from "./ScoreTable";
-import Triangle from "./Triangle";
+// import Triangle from "./Triangle";
 import { connect } from "react-redux";
 // import RulesButton from "./RulesButton";
 // import StartMatch from "../StartMatch";
