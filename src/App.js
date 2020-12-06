@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-// import Form from './Form'
+import Form from './Form'
 import { connect } from "react-redux";
 // import GameDashboard from './GameDashboard'
 
@@ -9,7 +9,7 @@ export function App({ user = false }) {
   if(!user){
     return (
       <div className="App">
-        {/* <Form/> */}
+        <Form/>
         form
       </div>
     );
