@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 // import Gamer from "./Gamer";
-// import Computer from "./Computer";
+import Computer from "./Computer";
 // import WinOrLose from "./WinOrLose";
-// import "../Style/StartMatch.css";
+import "../Style/StartMatch.css";
 import { connect } from "react-redux";
 // import CircleAnimation from "../Animation/circleAnimation";
 function Index({ computerChoice }) {
@@ -17,6 +17,8 @@ function Index({ computerChoice }) {
 
   return (
     <div className="start--game">
+
+      <Computer />
     </div>
   );
 }
