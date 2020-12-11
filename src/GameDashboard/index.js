@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import ScoreTable from "./ScoreTable";
-// import Triangle from "./Triangle";
+import Triangle from "./Triangle";
 import { connect } from "react-redux";
-// import RulesButton from "./RulesButton";
-// import StartMatch from "../StartMatch";
+import RulesButton from "./RulesButton";
+import StartMatch from "../StartMatch";
 import "../Style/GameStyle.css";
 
 export function Game({ userChoice, user, logOut }) {
@@ -20,8 +20,8 @@ export function Game({ userChoice, user, logOut }) {
         Log out
       </button>
       <ScoreTable />
-      {/* {userChoice ? <StartMatch /> : <Triangle />} */}
-      {/* <RulesButton state={rulesState} setRulesFunction={setRuleState} /> */}
+      {userChoice ? <StartMatch /> : <Triangle />} 
+       <RulesButton state={rulesState} setRulesFunction={setRuleState} /> 
     </div>
   );
 }
