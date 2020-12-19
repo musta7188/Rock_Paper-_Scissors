@@ -18,7 +18,7 @@ export function Computer({ computerChoice, showResult }) {
       state = getComputerChoice();
       setChoice(state);
       computerChoice(state);
-    }, 1000);
+    }, 1000);// eslint-disable-next-line 
   }, []);
 
   return (

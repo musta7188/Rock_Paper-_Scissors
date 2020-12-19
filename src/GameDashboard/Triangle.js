@@ -14,18 +14,21 @@ function Triangle({ setUserChoice }) {
           className="paper"
           srcImage={paper}
           setUserChoice={setUserChoice}
+          alt="paper image"
         />
         <Chip
           className="rock"
           srcImage={rock}
           setUserChoice={setUserChoice}
+          alt="rock image"
         />
         <Chip
           className="scissors"
           srcImage={scissors}
           setUserChoice={setUserChoice}
+          alt="scissor image"
         />
-        <img className="triangle--image" src={TriangleImage} />
+        <img className="triangle--image" src={TriangleImage} alt="triangle" />
       </div>
   );
 }

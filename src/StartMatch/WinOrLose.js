@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import {gameStart} from '../Shared/SharedFunction'
 import {connect} from 'react-redux'
 import '../Style/WinOrLose.css'
-import CircleAnimation from '../Animation/circleAnimation'
 function WinOrLose({computerChoice, userChoice, resetState, setScore,showResult, getResult}) {
 
   const [result, setResult] = useState(null)
@@ -12,7 +11,7 @@ function WinOrLose({computerChoice, userChoice, resetState, setScore,showResult,
     setResult(outCome)
     setScore(outCome)
     getResult(outCome)
-    showResult(true)
+    showResult(true)// eslint-disable-next-line 
   },[])
 
   

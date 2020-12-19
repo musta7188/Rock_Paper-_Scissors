@@ -12,9 +12,10 @@ export default function Rules({ setRulesFunction }) {
           className="close"
           src={close}
           onClick={(e) => setRulesFunction(false)}
+          alt="rules game"
         />
       </section>
-      <img className="rules__image" src={rule} />
+      <img className="rules__image" src={rule} alt="" />
     </div>
   );
 }
