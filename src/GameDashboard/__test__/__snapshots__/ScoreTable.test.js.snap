@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScoreTable it render correctly 1`] = `
+<div
+  class="score_table"
+>
+  <section
+    class="score_table__info"
+  >
+    <div>
+      ROCK
+    </div>
+    <div>
+      PAPER
+    </div>
+    <div>
+      SCISSORS
+    </div>
+  </section>
+  <section
+    class="score_table__score"
+  >
+    <div>
+      SCORE
+    </div>
+    <div
+      class="score"
+    >
+      0
+    </div>
+  </section>
+</div>
+`;

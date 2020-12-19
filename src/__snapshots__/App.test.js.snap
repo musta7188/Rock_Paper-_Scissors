@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly when user is not provided 1`] = `
+<div
+  class="App"
+>
+  <div
+    class="form--container"
+    data-testid="form"
+  >
+    <form>
+      <label>
+        <h1>
+          Player name
+        </h1>
+        <input
+          autocomplete="gamer"
+          id="gamer"
+          label="gamer"
+          margin="normal"
+          name="gamer"
+          placeholder="Insert your name"
+          required=""
+          value=""
+          variant="outlined"
+        />
+      </label>
+      <input
+        class="submit-button"
+        type="submit"
+        value="Submit"
+      />
+    </form>
+  </div>
+</div>
+`;
+
+exports[`App renders correctly when user is provided 1`] = `
+<div
+  class="Game"
+>
+  <div
+    class="game_dashboard"
+  >
+    <h1
+      class="user--name"
+    >
+      Welcome 
+    </h1>
+    <button
+      class="log-out"
+    >
+      Log out
+    </button>
+    <div
+      class="score_table"
+    >
+      <section
+        class="score_table__info"
+      >
+        <div>
+          ROCK
+        </div>
+        <div>
+          PAPER
+        </div>
+        <div>
+          SCISSORS
+        </div>
+      </section>
+      <section
+        class="score_table__score"
+      >
+        <div>
+          SCORE
+        </div>
+        <div
+          class="score"
+        >
+          0
+        </div>
+      </section>
+    </div>
+    <div
+      class="triangle"
+    >
+      <div
+        class="circle circle--paper"
+      >
+        <img
+          class="paper"
+          src="icon-paper.svg"
+        />
+      </div>
+      <div
+        class="circle circle--rock"
+      >
+        <img
+          class="rock"
+          src="icon-rock.svg"
+        />
+      </div>
+      <div
+        class="circle circle--scissors"
+      >
+        <img
+          class="scissors"
+          src="icon-scissors.svg"
+        />
+      </div>
+      <img
+        class="triangle--image"
+        src="bg-triangle.svg"
+      />
+    </div>
+    
+    <div
+      class="rules_button"
+    >
+      <button>
+        RULES
+      </button>
+    </div>
+  </div>
+</div>
+`;
